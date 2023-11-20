@@ -1,0 +1,5 @@
+in cmd -
+virtualenv venv
+venv\Scripts\activate
+pip install cookiecutter
+cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
